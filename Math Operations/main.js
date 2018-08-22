@@ -37,6 +37,7 @@ bool = z < d;
 // bool = z > d;
 // bool = z <= d;
 // bool = z >= d;
+// bool = z != d;
 // bool = z == d;
 document.write(bool);
 document.write("<br/>");
