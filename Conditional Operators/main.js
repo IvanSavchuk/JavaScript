@@ -8,3 +8,14 @@ if (x > y){
 } else {
     document.write("x < y");
 }
+
+document.write("<br/>");
+
+var result = 6;
+switch (result) {
+    case 1: document.write("result = 1"); break;
+    case 2: document.write("result = 2"); break;
+    case 3: document.write("result = 3"); break;
+    case 4: document.write("result = 4"); break;
+    default : document.write("result > 4");
+}
