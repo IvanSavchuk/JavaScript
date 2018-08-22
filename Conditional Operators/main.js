@@ -21,5 +21,18 @@ switch (result) {
 }
 
 document.write("<br/>");
-
 x >= y ? document.write("YES") : document.write("NO");
+document.write("<br/>");
+
+var z = 6;
+var d = 5;
+var bool = false;
+
+// if (z < d || bool == true){
+if (z > d && bool != true){
+    document.write("z > d");
+} else if (z == d) {
+    document.write("z == d");
+} else {
+    document.write("z < d");
+}
