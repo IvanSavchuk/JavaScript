@@ -1,4 +1,4 @@
-var x = 4;
+var x = 5;
 var y = 5;
 
 if (x > y){
@@ -19,3 +19,7 @@ switch (result) {
     case 4: document.write("result = 4"); break;
     default : document.write("result > 4");
 }
+
+document.write("<br/>");
+
+x >= y ? document.write("YES") : document.write("NO");
