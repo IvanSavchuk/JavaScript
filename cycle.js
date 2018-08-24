@@ -3,3 +3,9 @@ for(var i = 0; i < 10; i++) {
     if(i == 8) break; 
     document.write(i + "<br/>");
 }
+
+var x = 0;
+while (x < 10) {
+    document.write(x + "<br/>")
+    x += 2;
+}
