@@ -1,2 +1,6 @@
 var person = "John";
-alert("Hello, " + person);
+if(confirm("Are you sure?")){
+    alert("Hello, " + person);
+} else {
+    alert("Person not sure");
+}
