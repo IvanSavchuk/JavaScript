@@ -9,3 +9,8 @@ while (x < 10) {
     document.write(x + "<br/>")
     x += 2;
 }
+
+var y = 1000;
+do {
+    document.write("The cycle worked!")
+} while (y < 100);
